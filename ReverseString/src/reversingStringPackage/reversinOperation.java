@@ -1,11 +1,11 @@
 
 package reversingStringPackage;
 import java.util.*;
+
 public class reversinOperation {
    public String firstName;
    public String lastName;
    public String fullName;
-   public String reversedName = "";
    public reversinOperation(){
      Scanner inputValue = new Scanner(System.in);
      System.out.println("enter first name");
