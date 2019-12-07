@@ -5,7 +5,7 @@ public class reversinOperation {
    public String firstName;
    public String lastName;
    public String fullName;
-   public String reversedName = "";
+   
    public reversinOperation(){
      Scanner inputValue = new Scanner(System.in);
      System.out.println("enter first name");
@@ -50,6 +50,7 @@ public class reversinOperation {
    }
    public void diplayReversedNames(){
       System.out.println("my full name is :" + this.combineName());
+      System.out.println("-------------------------");
       System.out.println("string reversed with for loop :" + this.reverseWithFor());
       System.out.println("-------------------------");
       System.out.println("string reversed with while loop :" + this.reverseWithWhile());
